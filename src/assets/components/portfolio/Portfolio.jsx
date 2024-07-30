@@ -1,4 +1,7 @@
 import React from "react";
+import port1 from "/src/assets/imgs/poert1.png";
+import port2 from "/src/assets/imgs/port2.png";
+import port3 from "/src/assets/imgs/port3.png";
 
 export default function Portfolio() {
   return (
@@ -16,61 +19,37 @@ export default function Portfolio() {
 
           <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-12 w-full">
             <div className="item flex items-center justify-center relative">
-              <img
-                className="rounded-lg"
-                src="/src/assets/imgs/poert1.png"
-                alt=""
-              />
+              <img className="rounded-lg" src={port1} alt="" />
               <div className="layerHover absolute w-full h-full rounded-lg flex text-7xl items-center  justify-center">
                 <i className="fa-solid fa-plus opacity-100 text-white "></i>
               </div>
             </div>
             <div className="item flex items-center justify-center relative">
-              <img
-                className="rounded-lg"
-                src="/src/assets/imgs/port2.png"
-                alt=""
-              />
+              <img className="rounded-lg" src={port2} alt="" />
               <div className="layerHover absolute w-full h-full rounded-lg flex text-7xl items-center  justify-center">
                 <i className="fa-solid fa-plus opacity-100 text-white "></i>
               </div>
             </div>
             <div className="item flex items-center justify-center relative">
-              <img
-                className="rounded-lg"
-                src="/src/assets/imgs/port3.png"
-                alt=""
-              />
+              <img className="rounded-lg" src={port3} alt="" />
               <div className="layerHover absolute w-full h-full rounded-lg flex text-7xl items-center  justify-center">
                 <i className="fa-solid fa-plus opacity-100 text-white "></i>
               </div>
             </div>
             <div className="item flex items-center justify-center relative">
-              <img
-                className="rounded-lg"
-                src="/src/assets/imgs/poert1.png"
-                alt=""
-              />
+              <img className="rounded-lg" src={port1} alt="" />
               <div className="layerHover absolute w-full h-full rounded-lg flex text-7xl items-center  justify-center">
                 <i className="fa-solid fa-plus opacity-100 text-white "></i>
               </div>
             </div>
             <div className="item flex items-center justify-center relative">
-              <img
-                className="rounded-lg"
-                src="/src/assets/imgs/port2.png"
-                alt=""
-              />
+              <img className="rounded-lg" src={port2} alt="" />
               <div className="layerHover absolute w-full h-full rounded-lg flex text-7xl items-center  justify-center">
                 <i className="fa-solid fa-plus opacity-100 text-white "></i>
               </div>
             </div>
             <div className="item flex items-center justify-center relative">
-              <img
-                className="rounded-lg"
-                src="/src/assets/imgs/port3.png"
-                alt=""
-              />
+              <img className="rounded-lg" src={port3} alt="" />
               <div className="layerHover absolute w-full h-full rounded-lg flex text-7xl items-center  justify-center">
                 <i className="fa-solid fa-plus opacity-100 text-white "></i>
               </div>
